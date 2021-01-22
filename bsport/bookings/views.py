@@ -19,4 +19,3 @@ class BookingsViewset(viewsets.ModelViewSet):
     queryset = Bookings.objects.all()
     serializer_class = BookingsSerializer
     permission_classes = [IsAdminOrReadOnly]
-
